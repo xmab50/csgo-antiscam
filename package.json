@@ -1,0 +1,65 @@
+{
+  "name": "cs.money-antiscam",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service build --mode production --watch",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "amplitude-js": "^8.14.1",
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "floating-vue": "^1.0.0-beta.15",
+    "moment": "^2.29.1",
+    "tippy.js": "^6.3.7",
+    "tslib": "^2.3.1",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.26.8",
+    "vue-router": "^3.5.3",
+    "vuelidate": "^0.7.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/amplitude-js": "^8.9.3",
+    "@types/vuelidate": "^0.7.15",
+    "@types/webextension-polyfill": "^0.8.2",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.15",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.2.0",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-browser-extension": "~0.25.2",
+    "vue-template-compiler": "^2.6.11",
+    "webextension-polyfill": "^0.8.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "webextensions": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

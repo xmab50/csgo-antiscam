@@ -1,0 +1,224 @@
+.cs-money__trade-btn {
+  margin: 15px 0 0;
+  padding: 0 15px;
+
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: none !important;
+
+  border-radius: 2px;
+  border: none;
+
+  display: inline-block;
+  cursor: pointer;
+
+  color: #D2E885 !important;
+  background: #a4d007;
+  background: -webkit-linear-gradient( top, #a4d007 5%, #536904 95%);
+  background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+}
+
+.cs-money-item__holder__container {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cs-money-item__holder__wrapper {
+  width: 100%;
+
+  padding: 4px 10px;
+  box-sizing: border-box;
+
+  font-size: 11px;
+  text-align: right;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cs-money-item__holder__wrapper-middle {
+  flex-grow: 2;
+  align-items: flex-end;
+}
+
+.cs-money-item__holder__wrapper-bottom {
+  background-color: #00000080;
+  display: none;
+}
+
+.cs-money-item__logo {
+  width: 14px !important;
+}
+
+.cs-money-item__blockDays-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cs-money-item__blockDays-img {
+  width: 8px !important;
+  margin-right: 2px;
+}
+
+.cs-money-item__float {
+  flex-grow: 2;
+}
+
+.slot_app_fraudwarning {
+  padding-left: 20px;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.cs-money-item__info__content {
+  display: flex;
+  flex-flow: column;
+}
+
+.cs-money-item__info__loader {
+  margin-bottom: 6px;
+  display: none;
+}
+
+.cs-money-item__isPopular__container {
+  background: #E96200;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 4px;
+
+  font-size: 10px;
+  position: relative;
+  z-index: 3;
+}
+
+.cs-money-item__isPopular__img {
+  width: 9px !important;
+  margin-right: 2px;
+}
+
+.cs-money-item__isPopular__tooltip {
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+
+.cs-money-item__isPopular__tooltip__container {
+  width: 156px;
+  position: absolute;
+  left: calc(50% - 78px);
+  top: 0;
+  display: none;
+  z-index: 4;
+}
+
+.cs-money-item__isPopular__tooltip__arrow {
+  position: absolute;
+  left: calc(50% - 10px);
+  top: -10px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #141416;
+}
+
+.cs-money-item__isPopular__tooltip__content {
+  background-color: #141416;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+[id^="cs-money-item__isPopular_item_info_"] {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+}
+
+[id^="cs-money-item__isPopular_item_info_"]
+.cs-money-item__isPopular__content {
+  padding: 4px 8px 4px 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+[id^="cs-money-item__isPopular_item_info_"]
+.cs-money-item__isPopular__content__text {
+  line-height: 26px;
+  font-size: 18px;
+}
+
+[id^="cs-money-item__isPopular_item_info_"]
+.cs-money-item__isPopular__img {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 7px;
+}
+
+.inventory_iteminfo {
+  position: relative;
+}
+
+.cs-money-item__isPopular__content {
+  padding: 2px 3px;
+}
+
+.cs-money-item__overstock__content {
+  display: flex;
+  flex-flow: column;
+}
+
+.cs-money-item__overstock__loader {
+  margin-bottom: 6px;
+  display: none;
+}
+
+.cs-money-item__overstock__content .descriptor {
+  height: 15px;
+}
+
+.view_inventory_logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cs-money__total-inventory-value__container {
+  color: #b4b4b4 !important;
+  font-size: 20px !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.trade_box .cs-money__total-inventory-value__container {
+  font-size: 14px !important;
+  margin: 0 0 4px;
+}
+
+/* fix "CSGO Trader - Steam Trading Enhancer" inventory filter */
+#functionBarActions {
+  width: 100%;
+  display: inline-block !important;
+}

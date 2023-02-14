@@ -1,0 +1,25 @@
+html body #csgo-antiscam-content-popup {
+  width: 448px !important;
+  height: 100% !important;
+  min-height: 400px !important;
+  max-height: 762px !important;
+  position: fixed !important;
+  right: 0 !important;
+  left: calc(100vw - 448px);
+  top: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 999999999999999999999999999999 !important;
+  border: none !important;
+
+  transition-property: transform;
+  transition-duration: .3s;
+}
+
+html body #csgo-antiscam-content-popup.disabled {
+  transform: translateX(100%);
+}
+
+html body #csgo-antiscam-content-popup.active {
+  transform: translateX(0);
+}

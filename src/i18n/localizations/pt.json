@@ -1,0 +1,431 @@
+{
+  "signin": {
+    "title": "Entrar pelo Steam",
+    "description": "É necessária autorização do Steam para usar a extensão",
+    "button": "Entrar pelo Steam"
+  },
+
+  "siteStatus": {
+    "title": "Status do site",
+    "link": {
+      "title": "Link"
+    },
+    "trustScore": {
+      "title": "Pontuação de Confiança"
+    },
+    "notCheckable": "Não verificável",
+    "notify": {
+      "scam": {
+        "title": "CS.MONEY ANTISCAM",
+        "text": "Este site é potencialmente perigoso. Aconselhamo-lo a deixá-lo."
+      },
+      "unknown": {
+        "title": "CS.MONEY ANTISCAM",
+        "text": "O site não está em nosso banco de dados. Verifique antes de usar.",
+        "button": "Verificar site"
+      }
+    }
+  },
+
+  "todoButton": {
+    "protectionStatus": {
+      "loading": "Carregando...",
+      "needReloadPage": "Precisa recarregar esta página",
+      "notCheckable": "Nada para fazer",
+      "canNotCheck": "Nada para fazer",
+      "signin": "Entrar pelo Steam",
+      "scam": "Recomendamos que saia deste site",
+      "unknown": "Verifique este site",
+      "safe": "Nada para fazer",
+      "failed": "Nada para fazer"
+    }
+  },
+
+  "apikeyStatus": {
+    "title": "Status da chave de API",
+    "status": {
+      "notRegistered": "Não registrado",
+      "registered": "Registrada",
+      "disabled": "Desativada",
+      "loading": "Carregando...",
+      "failed": "Falha ao carregar"
+    },
+    "hint": "O que isso significa?",
+    "tooltip": {
+      "notRegistered": "A chave de API pode ser usada em negociações P2P ou tentativas de fraude. Sempre verifique sua chave de API antes de negociar"
+    },
+    "notify": {
+      "registered": {
+        "title": "CS.MONEY ANTISCAM",
+        "text": "Detected API-key registration.",
+        "button": "Revoke Api-Key"
+      }
+    }
+  },
+
+  "error": "Algo deu errado...",
+
+  "popup": {
+    "error": {
+      "title": "Need to reload this page.",
+      "description": ""
+    },
+    "signin": {
+      "title": "Sign in through Steam.",
+      "description": ""
+    },
+    "systemPage": {
+      "title": "System page.",
+      "description": "You are trying to use Antiscam in an unsupported page such as a browser system page, localhost or an extension page."
+    },
+    "button": {
+      "error": "Reload",
+      "systemPage": "Got it",
+      "signin": "Sign in via Steam"
+    }
+  },
+
+  "settings": {
+    "preventApiScam": {
+      "title": "Impedir fraude de chave de API",
+      "description": "Se a chave de API for gerada sem o seu conhecimento, nós o avisaremos."
+    },
+    "liveAnalysis": {
+      "title": "Análise em tempo real",
+      "description": "Analisando sites potencialmente perigosos live."
+    },
+    "analyticEvents": {
+      "title": "Eventos de Análise",
+      "description": "Enviar estatísticas de uso para melhorar a extensão."
+    },
+    "allowNotifications": {
+      "title": "Permitir notificações",
+      "description": "Receba notificações sobre o status do site e da API."
+    },
+    "scamTradeOffer": {
+      "title": "Detect API cloned trades (BETA)",
+      "description": "Notifies if your trade was replaced by scammers."
+    }
+  },
+
+  "tradeSettings": {
+    "showItemSkinInfo": {
+      "title": "Mostrar limite de flutuação, padrão e excesso de estoque",
+      "description": "Exibido limite de flutuação, padrão e excesso de estoque no cartão de descrição do item."
+    },
+    "showItemPrices": {
+      "title": "Mostrar preços CSM",
+      "description": "Exibido os preços de CS.Money no cartão de item."
+    }
+  },
+
+  "nav": {
+    "home": "Início",
+    "securitySettings": "Configurações",
+    "tradeSettings": "troca",
+    "settings": "Configurações",
+    "about": "Sobre nós"
+  },
+
+  "scamReport": {
+    "reportUrl": {
+      "required": "URL do site muito curto",
+      "minLength": "URL do site muito curto",
+      "url": "URL do site inválido",
+      "thx": "Vamos verificar o site. Obrigado!",
+      "wrong": "Algo deu errado..."
+    },
+    "title": "Reportar golpe",
+    "send": "Enviar",
+    "placeholder": "URL do site"
+  },
+
+  "protectionStatus": {
+    "title": "Status da proteção",
+    "button": {
+      "loading": "Analisando...",
+      "disabled": "Proteção desabilitada",
+      "canNotCheck": "Can't check it",
+      "signin": "Entrar através da Steam",
+      "scam": "API-Key detectado",
+      "safe": "Você está seguro!",
+      "notCheckable": "Não verificável",
+      "needReloadPage": "Precisa recarregar a página",
+      "failed": "Algo deu errado...",
+      "unknown": "Desconhecido"
+    },
+    "hint": {
+      "loading": "Por favor, aguarde",
+      "needReloadPage": "'Análise ao vivo' não está funcionando, você precisa recarregar esta página",
+      "disabled": "Habilite a proteção em Configurações",
+      "failed": "Por favor, recarregue a página ou extensão",
+      "unknown": "This site is not listed in our database. Let us check it out",
+      "safe": "Sempre verifique o nível do BOT antes de confirmar uma troca",
+      "scam": "Não interaja com isso. Você pode perder seus itens",
+      "notCheckable": "Abra qualquer site relacionado ao CS:GO",
+      "canNotCheck": "Este site não está relacionado ao CS:GO. Não podemos verificar."
+    },
+    "tooltip": {
+      "safe": "Este site é confiável. Você pode usá-lo com segurança",
+      "scam": "Este site é perigoso. Aconselhamo-lo a deixá-lo",
+      "unknown": "Recomendamos verificar este site antes de usá-lo"
+    }
+  },
+
+  "home": {
+    "faq": "Como usar o Antiscam?",
+    "openFaq": "Abrir FAQ"
+  },
+
+  "about": {
+    "slogan": "Proteja suas skins",
+    "poweredBy": "alimentado por CSMONEY",
+    "content": {
+      "paragraph0": {
+        "text": "O CS.Money Antiscam {accent} fraudulentos visitados e sobre atividades suspeitas na conta do usuário, incluindo golpes de chave de API.",
+        "accent": "mantém o usuário informado sobre quaisquer sites"
+      },
+      "paragraph1": {
+        "text": "Só {accent} pode proteger seus próprios itens. E {accent1} . A escolha é sua!",
+        "accent": "você",
+        "accent1": "estamos aqui para ajudar"
+      },
+      "paragraph2": {
+        "text": "Por favor, esteja ciente! {accent} nenhuma informação sobre você ou sua conta Steam.",
+        "accent": "Não coletamos"
+      }
+    },
+    "questions": "Questões? Comentários? Sugestões?",
+    "emailUs": "Envie-nos um e-mail para {email}",
+    "email": "antiscam@cs.money",
+    "feedback": "Deixe-nos um feedback"
+  },
+
+  "changelog": {
+    "title": "Changelog",
+    "subtitle": "O que há de novo?",
+    "version": "Atualizar {version}:"
+  },
+
+  "notification": {
+    "title": "Notificação",
+    "button": {
+      "clear": "Limpar tudo",
+      "hide": "Esconder",
+      "show": "exposição"
+    }
+  },
+
+  "faq": {
+    "frequentlyAskedQuestions": {
+      "title": "Perguntas frequentes",
+      "text1": "Muitas vezes enfrentamos o fato de que os golpistas tentam enganar nossos usuários e roubar o inventário. Sim, o mundo não é perfeito, e há muitos golpistas na Internet, que sempre conseguem criar uma nova maneira de ganhos desonestos.",
+      "text2": "Por isso, desenvolvemos a extensão CS.MONEY Antiscam. Nosso objetivo é garantir a segurança dos dados de nossos usuários."
+    },
+    "whatNeedToKnow": {
+      "title": "Aqui está o que você precisa saber sobre a extensão:",
+      "protectionFakeSites": {
+        "accent": "Proteção contra sites falsos.",
+        "text": "Criamos um enorme banco de dados de sites fraudulentos que copiam nosso site. Se um usuário visitar um site que está adicionado à nossa lista de bloqueio, ele recebe uma notificação de que este é um site fraudulento."
+      },
+      "protectionApiKey": {
+        "accent": "Proteção contra golpes de Chave de API.",
+        "text": "Se o usuário tiver uma chave de API gerada e entrar CS.MONEY usando sua conta da steam, ele receberá um aviso de que está em perigo, porque os golpistas podem possuir seus dados. Também será solicitado que faça uma limpeza completa da sua conta, para evitar problemas com golpistas, alterando sua senha, revogando a chave da API e criando uma nova URL de troca."
+      },
+      "liveAnalysis": {
+        "accent": "Análises em tempo real.",
+        "text": "Apesar de um grande banco de dados de sites fraudulentos, um novo site falso aparece toda semana e podemos não estar cientes disso. Se um usuário visitar um site que é uma cópia do CS.MONEY, nossa análise ao vivo bloqueia todas as ações e avisa que este é um site fraudulento."
+      },
+      "foundScamSite": {
+        "accent": "Encontrou um novo site de fraude? Informe-nos!",
+        "text": "Adicionamos aos nossos usuários a capacidade de denunciar um site fraudulento. Todo o site relatado será anale depois adicionado ao nosso banco de dados."
+      }
+    },
+    "extensionWork": {
+      "title": "Você vai roubar meus itens?",
+      "text": "- Nossa extensão não tem acesso ao seu inventário ou conta da Steam."
+    },
+    "mobileVersion": {
+      "title": "Existe uma versão para celular?",
+      "text": "- Você pode usar nossa extensão apenas na versão para PC do Google Chrome."
+    },
+    "aboutPersonalInfo": {
+      "title": "A extensão irá coletar minhas informações pessoais?",
+      "text": "- Nossa extensão possui código aberto. Qualquer usuário pode descobrir o que e como fazemos. Além disso, para ser adicionado à loja virtual do Google Chrome passamos por uma rigorosa análise do Google. O principal objetivo da nossa extensão é garantir sua segurança e tudo isso é gratuito."
+    },
+    "whyIsItNeeded": {
+      "title": "Por que eu preciso dessa extensão?",
+      "text": "- Até mesmo usuários avançados podem ser enganados. Nossa extensão ajudará a protegê-lo dos métodos mais comuns de fraude."
+    }
+  },
+
+  "liveAnalysis": {
+    "subdesc": "NOTIFICAÇÃO",
+    "title": "Esse é um site potencialmente perigoso",
+    "description": "Você visitou um site potencialmente fraudulento. Interações com este site podem significar à perda de sua conta da Steam e/ou dos seus itens no jogo. Por favor, tenha cuidado!",
+    "hint": "Se você acha que esse site não é fraudulento, entre em contato com @cs.money ou @moderator em nosso servidor do Discord.",
+    "report": "Reportar o website",
+    "proceed": "Continuar mesmo assim",
+    "discord": "CS.Money Discord Server",
+    "reportSuccess": "Nós iremos checar o site. Obrigado!"
+  },
+
+  "scamSiteAnalysis": {
+    "subdesc": "NOTIFICAÇÃO",
+    "title": "Esse é um site fraudulento",
+    "description": "Você visitou algum site fraudulento. Isso pode levar à perda de sua conta Steam ou de itens do jogo.",
+    "hint": "Se você acha que esse site não é fraudulento, entre em contato com @cs.money ou @moderator em nosso servidor do Discord.",
+    "openCSM": "Abrir CS.MONEY",
+    "discord": "CS.Money Discord Server",
+    "linkToReview": "Não é uma farsa. Reenviar para revisão"
+  },
+
+  "accountProtection": {
+    "home": {
+      "title": "API-key detectada!",
+      "subtitle": "Notificação Antiscam",
+      "paragraphs": {
+        "apiKey": {
+          "accent": "O que é API-key?",
+          "text": "{accent} API-key permite que golpistas gerenciem sua conta da Steam. Ela dá acesso às negociações, operações de mercado, pedidos de amizade e etc."
+        },
+        "whyWouldYouCare": {
+          "accent": "Por que isso é importante?",
+          "text": "{accent} Por padrão, não deve haver nenhuma API-key habilitada. Caso tenha alguma, significa que alguém gerou sem o seu consentimento. Os golpistas podem usá-la para roubar seus itens."
+        },
+        "noRegisteredApiKey": {
+          "accent": "Se você não registrou uma API-key,",
+          "text": "{accent} nós sugerimos que você siga as etapas de segurança. Para fazer isso, clique no botão 'Proteja sua conta'."
+        },
+        "useApiKeyForTrading": {
+          "accent": "Se você usa API-key para negociações,",
+          "text": "{accent} clique no botão 'Eu uso API'."
+        }
+      },
+      "button": {
+        "protectAccount": "Proteja sua conta",
+        "useApi": "Eu uso API"
+      }
+    },
+
+    "useApiKey": {
+      "subtitle": "Notificação Antiscam",
+      "description": "Se você utiliza API-key para automatizar suas trocas, clique no botão 'OK'. Nós não iremos te incomodar com notificações.",
+      "button": {
+        "ok": "Ok",
+        "cancel": "Cancelar",
+        "sec": "{sec} sec"
+      }
+    },
+
+    "steps": {
+      "subtitle": "Passos {currentStep} / {maxSteps}",
+      "stepsSkipAlert": "Por favor, não pule essas etapas. É muito importante para segurança de sua conta e de seus itens.",
+      "done": "Pronto",
+      "stepsDone": {
+        "title": "Você está seguro!",
+        "subtitle": "Você completou todos as etapas.",
+        "description": "Se você completar todas as etapas, você está pronto para negociar. Seus itens estão seguros agora.",
+        "button": "Junte-se a nós no Discord"
+      },
+      "change_password": {
+        "title": "Mudar senha",
+        "paragraphs": {
+          "wayMoreSecure": {
+            "accent": "uma maneira mais segura.",
+            "text": "Vamos começar alterando sua senha para {accent} Dessa forma, golpistas não irão conseguir ser capazes de acessar sua conta."
+          },
+          "notRecommended": {
+            "text": "Nós não recomendamos senhas com menos de 12 caracteres."
+          },
+          "changePassword": {
+            "accent": "'Mudar senha'",
+            "text": "Clique no botão {accent} para fazer isso."
+          }
+        },
+        "button": "Mudar senha"
+      },
+      "unauthorize_devices": {
+        "title": "Revogar autorização de todos os outros dispositivos",
+        "paragraphs": {
+          "accessAccount": {
+            "accent": "Dessa forma, somente você terá acesso a sua conta.",
+            "text": "Para revogar o acesso dos golpistas, você precisa finalizar todas as sessões ativas. {accent}"
+          },
+          "pageBottom": {
+            "accent": "parte inferior da página.",
+            "text": "Você pode fazer isso nas configurações do Steam Guard. O botão 'Desautorizar todos os outros dispositivos' está localizado na {accent}"
+          },
+          "steamGuard": {
+            "accent": "NÃO remova sua autenticação do Steam Guard!",
+            "text": "{accent}"
+          }
+        },
+        "button": "Configurações do Steam Guard"
+      },
+      "revoke_apikey": {
+        "title": "Revogar API-key",
+        "paragraphs": {
+          "revoke": {
+            "accent": "revogar",
+            "text": "O passo mais importante é {accent} a API-key existente."
+          },
+          "domainName": {
+            "accent": "O campo Nome de Domínio' deve estar vazio!",
+            "text": "{accent} De agora em diante, os golpistas não irão mais conseguir controlar suar trocas."
+          }
+        },
+        "button": "Configurações de API"
+      },
+      "change_trade_link": {
+        "title": "Atualize o trade link",
+        "paragraphs": {
+          "fakeTrade": {
+            "accent": "os golpistas não possam lhe enviar uma troca falsa.",
+            "text": "Nós recomendados atualizar isso para que {accent}"
+          },
+          "clickButton": {
+            "text": "Clique no botão abaixo para atualizar."
+          }
+        },
+        "button": "Configurações de Ofertas de Troca"
+      }
+    },
+
+    "footer": {
+      "hint": "Se você precisa de ajuda, entre em contato com @csmoney ou @moderator através do nosso Discord",
+      "discord": "CS.Money Community Discord"
+    }
+  },
+
+  "fakeLogin": {
+    "subdesc": "Atenção!",
+    "title": "Fake login detectada",
+    "description": "Encontramos uma autorização falsa nesta página. Os golpistas podem usá-la para obter controle sobre sua conta.",
+    "report": "Reportar o website",
+    "hint": "Se você acha que isso não é um golpe, entre em contato com @cs.money ou @moderator em nosso servidor do Discord.",
+    "discord": "CS.Money Discord Server",
+    "reportSuccess": "Vamos verificar o site. Obrigado!"
+  },
+
+  "tradeOffer": {
+    "subdesc": "NOTIFICAÇÃO",
+    "title": "Por favor, tenha cuidado!",
+    "description": "Sempre verifique o {level} e {date} quando for confirmar uma troca no aplicativo",
+    "checkBotLevel": "nível",
+    "checkBotDate": "data de registro",
+    "steamWebApi": "Steam Web API",
+    "moreInfo": "O que é API??",
+    "confirmations": "Confirmations",
+    "tradeWith": "Trading with: {name}",
+    "notFriend": "You are not friends this user",
+    "botLevel": "{name} has a Steam Level of {level}",
+    "botRegistDate": "{name} has been on Steam since {date}"
+  },
+
+  "steamrep": {
+    "button": "SteamRep BAN",
+    "title": "Scammer (Defraud, Extortion)",
+    "description": "This user is blocked on the SteamRep platform. Do not respond to this user and do not make trades with him. Please submit a report against this scammer (More -> Report Profile)."
+  }
+}

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('../fonts/ApercuPro-Regular.eot');
+  src: local('Apercu Pro Regular'), local('ApercuPro-Regular'),
+    url('../fonts/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ApercuPro-Regular.woff2') format('woff2'),
+    url('../fonts/ApercuPro-Regular.woff') format('woff'),
+    url('../fonts/ApercuPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+#cs-money-notify-container {
+  width: 0px;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999999;
+
+  overflow: visible;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+
+  font-family: 'Apercu Pro', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cs-money-notify {
+  width: 100%;
+  min-width: 314px;
+  max-width: 314px;
+  position: static;
+  margin: 20px 20px 0 0;
+  transform: translateX(360px);
+  animation: slide 0.16s 0.2s 1 ease-out forwards;
+  text-align: left !important;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(360px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cs-money-notify__container {
+  padding: 14px;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgba(33, 33, 38, 1);
+  border-radius: 4px;
+}
+
+.cs-money-notify__icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.cs-money-notify__close-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.cs-money-notify__content {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.cs-money-notify__title {
+  margin: 0 0 4px !important;
+  line-height: 20px !important;
+  font-size: 14px !important;
+  color: rgba(188, 188, 194, 1) !important;
+}
+
+.cs-money-notify__text {
+  margin: 0 !important;
+  line-height: 20px !important;
+  font-size: 14px !important;
+  color: rgba(188, 188, 194, 1) !important;
+}
+
+.cs-money-notify__title {
+  font-weight: 500;
+}
+
+.cs-money-notify__text {
+  font-weight: 400;
+}
+
+.cs-money-notify__button {
+  width: fit-content  !important;
+  border: none  !important;
+  background-color: transparent  !important;
+  color: #B0A2FC  !important;
+  text-transform: uppercase  !important;
+  font-size: 14px  !important;
+  line-height: 20px  !important;
+  margin: 8px 0  !important;
+  padding: 2px  !important;
+  cursor: pointer !important;
+}
+
+.cs-money-notify__button.disabled {
+  display: none;
+}
+
+.cs-money-notify__button:hover {
+  color: #6c52ff;
+}
+
+.cs-money-notify__button:active {
+  color: rgba(176, 162, 252, .6);
+}

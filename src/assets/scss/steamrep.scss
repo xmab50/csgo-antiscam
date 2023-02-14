@@ -1,0 +1,35 @@
+.steamrep__wrapper {
+	background: red;
+	padding: 100px;
+}
+
+.steamrep__badge {
+	font-size: 15px;
+	font-weight: 500;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: fit-content;
+	user-select: none;
+	cursor: not-allowed;
+	transition: color 0.5s ease-in-out;
+}
+
+.steamrep__badge.ban {
+	background: #eb5757;
+	color: #fff;
+}
+
+.steamrep__background {
+	outline: 4px solid #eb5757;
+	background-color: #493031;
+	background-image: none !important;
+}
+
+.steamrep__summary {
+	font-size: 16px;
+	height: 62px !important;
+	color: rgba(255, 255, 255, 0.75);
+	line-height: 1.4 !important;
+
+	margin-top: 10px;
+}

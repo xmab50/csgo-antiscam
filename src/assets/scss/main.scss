@@ -1,0 +1,108 @@
+* {
+  font-family: $font-family;
+}
+
+.app-title {
+  color: $color-text;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.app-link {
+  color: $color-blue-accent-dark;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.app-link:hover {
+  color: $color-blue-accent-hover;
+  text-decoration: underline;
+}
+
+.app-link:disabled,
+.app-link.disabled {
+  color: $color-blue-dark;
+  cursor: not-allowed;
+}
+
+.app-link:disabled:hover,
+.app-link.disabled:hover {
+  text-decoration: none;
+}
+
+.app-button {
+	height: 34px;
+	border-radius: 6px;
+  border: none;
+	padding: 0 24px;
+	font-size: 14px;
+	line-height: 1.4;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	box-shadow: 0px 4px 4px $color-box-shadow;
+	cursor: pointer;
+	user-select: none;
+  text-decoration: none;
+  overflow: hidden;
+	transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 0);
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    box-shadow: 0 0 0 $color-box-shadow;
+    transform: translateY(2px);
+  }
+
+  &.primary,
+  &.primary a {
+    color: $color-text;
+    text-decoration: none;
+    background: $color-blue-accent;
+  }
+
+  &.secondary,
+  &.secondary a {
+    color: $color-text;
+    text-decoration: none;
+    background: $color-dark-secondary;
+  }
+
+  &.disabled {
+    opacity: 0.7;
+    pointer-events: none;
+  }
+}
+
+.app-paragraph {
+  margin-bottom: 12px;
+
+  @mixin text {
+    display: inline;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+
+  &__text {
+    @include text;
+    color: $color-sub-text-bright;
+  }
+
+  &__accent {
+    @include text;
+    color: $color-blue-accent-dark;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

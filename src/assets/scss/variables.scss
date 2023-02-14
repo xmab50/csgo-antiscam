@@ -1,0 +1,111 @@
+$color-text: #fff;
+$color-sub-text: rgb(111, 113, 118);
+$color-sub-text-dark: rgb(94, 94, 95);
+$color-sub-text-bright: rgb(148, 149, 152);
+$color-sub-text-brighter: rgb(211, 211, 211);
+$color-sub-text-dim: rgb(120, 130, 143);
+
+$color-dark: rgb(35, 35, 35);
+$color-dark-secondary: rgb(57, 57, 57);
+
+$color-blue: rgb(99, 183, 231);
+$color-blue-dark: rgb(46, 65, 92);
+$color-blue-dim: rgb(67, 106, 135);
+
+$color-blue-bg-hover: rgb(53, 76, 120);
+$color-blue-bg-active: rgb(59, 91, 156);
+
+$color-blue-accent: rgb(36, 117, 227);
+$color-blue-accent-hover: rgb(64, 137, 238);
+$color-blue-accent-dark: rgb(72, 124, 228);
+
+$color-yellow: rgb(203, 216, 23);
+$color-yellow-bg: rgb(110, 117, 60);
+$color-yellow-bg-dark: rgb(88, 93, 60);
+$color-yellow-bg-bright: rgb(142, 151, 61);
+
+$color-success: rgb(111, 207, 151);
+$color-success-hover: rgb(73, 114, 95);
+$color-success-active: rgb(87, 145, 115);
+$color-success-bg: rgb(65, 91, 82);
+
+$color-error: rgb(235, 86, 86);
+$color-error-bg: rgb(86, 59, 64);
+$color-error-bright: rgb(191, 97, 96);
+
+$color-default: rgb(36, 117, 227);
+$color-default-bg: rgb(46, 65, 92);
+$color-default-bg-dark: rgb(37, 48, 64);
+
+$color-disabled: rgb(213, 214, 215);
+$color-disabled-bg: rgb(90, 92, 98);
+
+$color-bg: rgb(33, 33, 38);
+$color-dark-bg: rgb(40, 43, 48);
+$color-darker-bg: rgb(26, 26, 26);
+$color-white-bg: rgb(255, 255, 255);
+
+$color-box-shadow: rgba(0, 0, 0, 0.1);
+
+$color-purple-100: rgb(108, 82, 255);
+$color-purple-500: rgb(136, 121, 215);
+
+$color-gray: rgb(130, 130, 138);
+$color-gray-base-800: rgb(20, 20, 22);
+$color-gray-base-600: rgb(45, 45, 51);
+$color-gray-base-500: rgb(54, 54, 60);
+$color-gray-base-400: rgb(68, 68, 75);
+$color-gray-base-200: rgb(129, 129, 138);
+$color-gray-base-100: rgb(188, 188, 194);
+
+$color-green-100: rgb(123, 195, 119);
+$color-green-accent-100: rgb(123, 195, 119);
+
+$color-pink-100: rgb(212, 95, 147);
+
+$color-yellow-accent-100: rgb(255, 193, 68);
+
+$color-red-accent-100: rgb(255, 137, 138);
+$color-red-accent-200: rgb(220, 110, 111);
+
+$color-white-100: rgb(255, 255, 255);
+
+$font-dir: "chrome-extension://__MSG_@@extension_id__/fonts";
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('#{$font-dir}/ApercuPro-Regular.eot');
+  src: local('Apercu Pro Regular'), local('ApercuPro-Regular'),
+    url('#{$font-dir}/ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$font-dir}/ApercuPro-Regular.woff2') format('woff2'),
+    url('#{$font-dir}/ApercuPro-Regular.woff') format('woff'),
+    url('#{$font-dir}/ApercuPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('#{$font-dir}/ApercuPro-Medium.eot');
+  src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
+      url('#{$font-dir}/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('#{$font-dir}/ApercuPro-Medium.woff2') format('woff2'),
+      url('#{$font-dir}/ApercuPro-Medium.woff') format('woff'),
+      url('#{$font-dir}/ApercuPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('#{$font-dir}/ApercuPro-Bold.eot');
+  src: local('Apercu Pro Bold'), local('ApercuPro-Bold'),
+    url('#{$font-dir}/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$font-dir}/ApercuPro-Bold.woff2') format('woff2'),
+    url('#{$font-dir}/ApercuPro-Bold.woff') format('woff'),
+    url('#{$font-dir}/ApercuPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+$font-family: 'Apercu Pro', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

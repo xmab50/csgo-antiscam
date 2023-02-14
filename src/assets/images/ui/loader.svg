@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:transparent;display:block;" width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+<defs><mask id="ldio-pcwm7w8bhd9-mask"><circle cx="50" cy="50" r="45" fill="rgba(255, 255, 255, 0)"></circle></mask></defs>
+<circle cx="50" cy="50" r="45" fill="rgba(255, 255, 255, 0)"></circle>
+<path d="MNaN NaN ANaN NaN 0 0 1 NaN NaN LNaN NaN LNaN NaN Z" fill="rgba(179, 179, 179, 0)" mask="url(#ldio-pcwm7w8bhd9-mask)"></path>
+<circle cx="50" cy="50" r="30" stroke="rgba(255, 255, 255, 0.1)" stroke-width="2" fill="none"></circle>
+<circle cx="50" cy="50" r="30" stroke="#b0a2fc" stroke-width="2" stroke-linecap="square" fill="none">
+  <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1.25s" keyTimes="0;0.5;1" values="0 50 50;180 50 50;720 50 50"></animateTransform>
+  <animate attributeName="stroke-dasharray" repeatCount="indefinite" dur="1.25s" keyTimes="0;0.5;1" values="18.84955592153876 169.64600329384882;150.79644737231007 37.6991118430775;18.84955592153876 169.64600329384882"></animate>
+</circle>
+</svg>
